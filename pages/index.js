@@ -43,6 +43,27 @@ export default function Home() {
           priority
         />
       </div>
+      <div>
+        <h2>Unoptimized = true</h2>
+        <Image
+          src="/image.png"
+          alt="Placeholder image with default settings"
+          width={300}
+          height={300}
+          unoptimized
+        />
+      </div>
+      <div>
+        <h2>Unoptimized = true and Loading = eager</h2>
+        <Image
+          src="/image.png"
+          alt="Placeholder image with default settings"
+          width={300}
+          height={300}
+          unoptimized
+          loading="eager"
+        />
+      </div>
     </main>
   );
 }
