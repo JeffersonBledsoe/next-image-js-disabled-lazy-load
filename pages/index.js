@@ -16,7 +16,7 @@ export default function Home() {
         <h2>Loading = eager</h2>
         <Image
           src="/image.png"
-          alt="Placeholder image with default settings"
+          alt="Placeholder image with loading set to eager"
           width={300}
           height={300}
           loading="eager"
@@ -26,7 +26,7 @@ export default function Home() {
         <h2>Priority = true</h2>
         <Image
           src="/image.png"
-          alt="Placeholder image with default settings"
+          alt="Placeholder image with priority set to true"
           width={300}
           height={300}
           priority
@@ -36,7 +36,7 @@ export default function Home() {
         <h2>Priority = true and Loading = eager</h2>
         <Image
           src="/image.png"
-          alt="Placeholder image with default settings"
+          alt="Placeholder image with loading set to eager and priority set to true"
           width={300}
           height={300}
           loading="eager"
@@ -47,7 +47,7 @@ export default function Home() {
         <h2>Unoptimized = true</h2>
         <Image
           src="/image.png"
-          alt="Placeholder image with default settings"
+          alt="Placeholder image with unoptimized set to true"
           width={300}
           height={300}
           unoptimized
@@ -57,7 +57,7 @@ export default function Home() {
         <h2>Unoptimized = true and Loading = eager</h2>
         <Image
           src="/image.png"
-          alt="Placeholder image with default settings"
+          alt="Placeholder image with unoptimized set to true and loading set to eager"
           width={300}
           height={300}
           unoptimized
